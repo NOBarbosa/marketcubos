@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+}
+
+.subtitle{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 60px;
+
+  width: 100%;
+
+  h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 123.5%;
+    letter-spacing: 0.25px;
+
+    color: rgba(0, 0, 0, 0.87);
+  }
+}

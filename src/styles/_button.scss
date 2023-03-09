@@ -1,0 +1,48 @@
+@import './colors';
+
+button{
+  border: none;
+
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  /* primary / contrast-text */
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 16px;
+
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.8;
+  transform: scale(1.01)
+
+  }
+}
+
+
+
+.btn-blue{
+  color: #FFFFFF;
+  background: $primary;
+
+  
+}
+
+.btn-white{
+  background-color: white;
+  color:$primary;
+}
