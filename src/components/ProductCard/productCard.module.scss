@@ -16,4 +16,71 @@
 
     border-radius: 16px 16px 0px 0px;
   }
+
+  &:hover{
+    transform: scale(1.01);
+  }
+}
+
+.content-infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 16px;
+
+  height: calc(100% - 240px);
+
+  h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+
+    letter-spacing: 0.15px;
+  }
+  p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    /* or 20px */
+
+    letter-spacing: 0.4px;
+
+    color: rgba(34, 34, 34, 0.87);
+  }
+
+  
+}
+.content-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+
+
+  span{
+    font-size: 12px;
+    line-height: 266%;
+    /* identical to box height, or 32px */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(101, 101, 101, 0.87);
+  }
+
+  strong{
+    letter-spacing: 0.073125px;
+    color: rgba(0, 0, 0, 0.87);
+    
+    font-size: 13px;
+    line-height: 24px;
+  }
 }
